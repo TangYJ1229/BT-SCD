@@ -1,7 +1,6 @@
 # BT-SCD
 
-## A Semantic Change Detection Network Based on Boundary Detection and Task Interaction for High Resolution Remote Sensing Images (Submitted to TNNLS)
+## A Semantic Change Detection Network Based on Boundary Detection and Task Interaction for High Resolution Remote Sensing Images
 
-Authors：Yingjie Tang, Shou Feng, Chunhui Zhao, Yongqi Chen, Zhiyong Lv, Weiwei Sun
 
 The code will be open-sourced soon.
