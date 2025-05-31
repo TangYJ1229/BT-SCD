@@ -116,8 +116,8 @@ class Logit_Interaction_Loss(nn.Module):
 
         CD_logit = logit_Change[:, 0, :, :] * unchange + logit_Change[:, 1, :, :] * change
 
-        max_A, _ = torch.max(out_A, dim=1)
-        max_B, _ = torch.max(out_B, dim=1)
+        max_A, _ = torch.max(logit_A, dim=1)
+        max_B, _ = torch.max(logit_B, dim=1)
         SCD_logit = 0.5 * (max_A + max_B)
 
         loss = self.mse(SCD_logit, CD_logit.detach())
